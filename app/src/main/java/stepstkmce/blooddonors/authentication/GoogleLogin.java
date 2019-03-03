@@ -96,7 +96,7 @@ public class GoogleLogin extends Activity implements View.OnClickListener{
                 });
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken("725951484156-gkd575p715p8cfvc39t4l1qv0vdsg2gn.apps.googleusercontent.com")
+                .requestIdToken(getString(R.string.default_web_client_id))
                 .requestEmail()
                 .build();
 
